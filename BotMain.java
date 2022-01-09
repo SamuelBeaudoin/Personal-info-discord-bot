@@ -18,7 +18,7 @@ public class BotMain {
 		
 		jda = new JDABuilder(AccountType.BOT).setToken("TOKEN").build();
 		jda.getPresence().setStatus(OnlineStatus.IDLE);
-		jda.getPresence().setActivity(Activity.playing("Safety"));
+		jda.getPresence().setActivity(Activity.watching("over you guys :)"));
 		
 		
 		
