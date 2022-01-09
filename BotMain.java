@@ -16,7 +16,7 @@ public class BotMain {
     
     public static void main(String[] args) throws LoginException {
 		
-		jda = new JDABuilder(AccountType.BOT).setToken("OTIzNjE5ODE5NTI0MzU4MTU0.YcSp_Q.MVcCbP05wg-F3DXebA82BsQ_o6Q").build();
+		jda = new JDABuilder(AccountType.BOT).setToken("TOKEN").build();
 		jda.getPresence().setStatus(OnlineStatus.IDLE);
 		jda.getPresence().setActivity(Activity.playing("with your nuts"));
 		
